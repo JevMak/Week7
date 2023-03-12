@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: #777;
+    text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+    
+    /*muuda image-container taustapilti*/
+    .image-container {
+        background-image: url('../img/profile1.jpg');
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+    }
+    .container {
+        width: 100%;
+        background-color: #777;
+    }
+    
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        border: 1px solid rgb(0, 217, 255);
+        color: beige;
+
+    }
+
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+        color: beige;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+
+    .header h1 {
+        text-transform: uppercase;
+        color: beige;
+
+    }
+
+    .footer ul a {
+        color: beige;
+        text-decoration: none;
+    }
+
+    .footer p {
+        color: beige;
+
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+    /*muuda image-container taustapilti*/
+    .image-container {
+        background-image: url('../img/profile2.jpg');
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+    }
+    .container {
+        width: 100%;
+        background-color: rgb(123, 123, 123);
+    }
+    
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        border: 1px solid rgb(0, 255, 157);
+        color: rgb(44, 44, 43);
+    }
+
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+        color: rgb(44, 44, 43);
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+
+    .header h1 {
+        text-transform: uppercase;
+        color: rgb(44, 44, 43);
+    }
+
+    .footer ul a {
+        color: rgb(44, 44, 43);
+        text-decoration: none;
+    }
+
+    .footer p {
+        color: rgb(44, 44, 43);
+
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    .image-container {
+        /*muuda image-container taustapilti*/
+            background-image: url('../img/profile3.jpg');
+        /*muuda dokumendi taustavärvi*/
+        /*muuda dokumendi tekstivärvi*/
+        /*ära unusta ka raamjoonesid*/
+        }
+    
+        .container {
+            width: 100%;
+            background-color: rgb(174, 113, 113);
+        }
+        
+    
+        .navigation ul li {
+            display: block;
+            font-size: 1rem;
+            margin: 0;
+            width: 100%;
+            border: 1px solid rgb(46, 96, 160);
+            color: rgb(63, 212, 53);
+
+    
+        }
+    
+        .navigation ul li:not(:last-child) {
+            border-bottom: none;
+        }
+        
+    
+        .main-container {
+            padding: 0.75rem;
+            width: 100%;
+            color: rgb(63, 212, 53);
+        }
+    
+        .main-container h1 {
+            margin: 1rem auto;
+        }
+
+        .header h1 {
+            text-transform: uppercase;
+            color: rgb(63, 212, 53);
+        }
+
+        .footer ul a {
+            color: rgb(63, 212, 53);
+            text-decoration: none;
+        }
+
+        .footer p {
+            color: rgb(63, 212, 53);    
+        }
+}
+
+
+@media (min-width: 1200px){
+
+    .image-container {
+        /*muuda image-container taustapilti*/
+            background-image: url('../img/profile4.jpg');
+        /*muuda dokumendi taustavärvi*/
+        /*muuda dokumendi tekstivärvi*/
+        /*ära unusta ka raamjoonesid*/
+        }
+
+        .container {
+            width: 100%;
+            background-color: rgb(109, 31, 73);
+        }
+        
+    
+        .navigation ul li {
+            display: block;
+            font-size: 1rem;
+            margin: 0;
+            width: 100%;
+            border: 1px solid rgb(100, 87, 218);
+            color: rgb(144, 144, 99);
+
+        }
+    
+        .navigation ul li:not(:last-child) {
+            border-bottom: none;
+        }
+        
+    
+        .main-container {
+            padding: 0.75rem;
+            width: 100%;
+            color: rgb(144, 144, 99);
+        }
+    
+        .main-container h1 {
+            margin: 1rem auto;
+        }
+
+        .footer ul a {
+            color: rgb(144, 144, 99);
+            text-decoration: none;
+        }
+
+        .footer p{
+            color: rgb(144, 144, 99);
+        }
+
+    .header h1 {
+        margin: 3rem auto;
+        color: rgb(144, 144, 99);
+
+    }
+    .navigation ul li {
+        display: inline-block;
+        width: 16rem;
+    }
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid black;
+        margin-right: 4rem;
+    }
+
+    .main-container {
+        width: 75%;
+    }
+
+}
+
+
